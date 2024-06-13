@@ -1,0 +1,87 @@
+/* styles/styles.css */
+
+.app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .task-form {
+    margin-bottom: 20px;
+  }
+  
+  .task-form input,
+  .task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .task-item h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .task-item p {
+    margin: 0 0 10px 0;
+  }
+  
+  .task-item button {
+    margin-right: 10px;
+  }
+
+  .addButton{
+    background-color: #1271fd;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+
+
+  .addButton{
+    border-radius: 5px;
+    width: 120px;
+    padding: 14px;
+  }
+
+  .editButton, .deleteButton,.saveButton {
+    border-radius: 5px;
+    width: 80px;
+    padding: 14px;
+  }
+
+  .editButton, .addButton  {
+    background-color: #1271fd;
+}
+
+.deleteButton{
+  background-color: #dc3b4a;
+ }
+
+.editButton, .addButton,.deleteButton ,.saveButton {
+  border: none;
+  color: white;
+}
+
+.saveButton{
+  background-color: #e1b230;
+ }
+ 
+ button:hover{
+  cursor: pointer;
+}
